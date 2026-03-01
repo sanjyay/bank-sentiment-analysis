@@ -9,18 +9,18 @@
 This project analyzes **customer reviews of Indian banks** scraped from
 **MouthShut.com** and applies advanced NLP techniques including:
 
--   Semantic chunking\
--   Text embeddings\
--   Sentiment probability modeling\
--   Topic aggregation\
--   Factor analysis\
+-   Semantic chunking
+-   Text embeddings
+-   Sentiment probability modeling
+-   Topic aggregation
+-   Factor analysis
 -   Hierarchical clustering
 
 The objective is to identify:
 
--   Topic-level sentiment patterns\
--   Comparative bank positioning\
--   Cluster-based similarities\
+-   Topic-level sentiment patterns
+-   Comparative bank positioning
+-   Cluster-based similarities
 -   Strategic insights (SWOT-style interpretation)
 
 ------------------------------------------------------------------------
@@ -33,9 +33,9 @@ https://www.mouthshut.com
 
 The dataset includes:
 
--   Bank name\
--   Review text\
--   User rating\
+-   Bank name
+-   Review text
+-   User rating
 -   Associated metadata
 
 All reviews were processed strictly for academic and analytical
@@ -44,12 +44,7 @@ purposes.
 ------------------------------------------------------------------------
 
 ## 🗂 Project Structure
-
-. ├── data │ └── final.xlsx ├── models │ └── chunk_embeddings.npy ├──
-notebooks │ └── nlp2.ipynb ├── outputs │ ├── df_chunks_with_index.csv │
-├── df_semantic_with_sentiment.csv │ ├── final_semantic_sentiment.csv │
-├── review_level_sentiment_mean.csv │ └── sentiment_probs_semantic.npy
-├── README.md └── requirements.txt
+<img width="826" height="727" alt="image" src="https://github.com/user-attachments/assets/ff542976-4506-4907-aa9a-79e38bdf9d1c" />
 
 ------------------------------------------------------------------------
 
@@ -57,36 +52,36 @@ notebooks │ └── nlp2.ipynb ├── outputs │ ├── df_chunks_wit
 
 ### 1️⃣ Web Scraping
 
--   Extracted bank reviews from MouthShut.com\
--   Structured into tabular dataset\
+-   Extracted bank reviews from MouthShut.com
+-   Structured into tabular dataset
 -   Stored as data/final.xlsx
 
 ### 2️⃣ Text Preprocessing
 
--   Cleaning and normalization\
--   Removal of noise\
+-   Cleaning and normalization
+-   Removal of noise
 -   Preparation for embedding model
 
 ### 3️⃣ Semantic Chunking
 
--   Long reviews split into meaningful semantic chunks\
+-   Long reviews split into meaningful semantic chunks
 -   Index mapping preserved\
 -   Output: df_chunks_with_index.csv
 
 ### 4️⃣ Embedding Generation
 
--   Converted text chunks into vector embeddings\
+-   Converted text chunks into vector embeddings
 -   Stored in models/chunk_embeddings.npy
 
 ### 5️⃣ Sentiment Probability Modeling
 
 Each chunk classified into:
 
--   Positive\
--   Neutral\
+-   Positive
+-   Neutral
 -   Negative
 
-Probability distributions saved as sentiment_probs_semantic.npy\
+Probability distributions saved as sentiment_probs_semantic.npy
 Chunk-level results stored in df_semantic_with_sentiment.csv
 
 ### 6️⃣ Aggregation Pipeline
@@ -119,27 +114,26 @@ Chunk-level results stored in df_semantic_with_sentiment.csv
 
 ## 🚀 How to Run
 
-1.  Clone the repository\
+1.  Clone the repository
+    ```git clone git@github.com:sanjyay/bank-sentiment-analysis.git```
 
-2.  Install dependencies using:
+3.  Install dependencies using:
 
-    pip install -r requirements.txt
+    ```pip install -r requirements.txt```
 
-3.  Open notebooks/nlp2.ipynb\
-
-4.  Run cells sequentially
+4.  Open notebooks/nlp.ipynb
 
 ------------------------------------------------------------------------
 
 ## 🧠 Tech Stack
 
--   Python\
--   Pandas\
--   NumPy\
--   Scikit-learn\
--   NLP Embedding Model\
--   Sentiment Classification Model\
--   Matplotlib\
+-   Python
+-   Pandas
+-   NumPy
+-   Scikit-learn
+-   NLP Embedding Model
+-   Sentiment Classification Model
+-   Matplotlib
 -   Seaborn
 
 ------------------------------------------------------------------------
