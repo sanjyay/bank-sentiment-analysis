@@ -1,0 +1,35 @@
+# Ignore everything by default (optional but safer for clean repos)
+# If you prefer to manually ignore, skip to the specific sections below.
+
+# --- Model Caches ---
+# Ignore the entire models directory and any Hugging Face snapshots
+models/
+**/models--*
+*.safetensors
+*.bin
+*.model
+*.json
+*.jinja
+blobs/
+snapshots/
+outputs/
+# --- Python & Jupyter ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.env
+.venv/
+env/
+venv/
+
+# --- System & OS ---
+.DS_Store
+Thumbs.db
+
+# --- Keep Specific Files ---
+# Even if parent folders are ignored, we ensure these stay tracked
+!notebooks/*.ipynb
+!outputs/*.xlsx
+!*.ipynb
+!*.xlsx
