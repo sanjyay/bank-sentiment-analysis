@@ -44,7 +44,9 @@ purposes.
 ------------------------------------------------------------------------
 
 ## 🗂 Project Structure
-<img width="826" height="727" alt="image" src="https://github.com/user-attachments/assets/ff542976-4506-4907-aa9a-79e38bdf9d1c" />
+<img width="791" height="759" alt="image" src="https://github.com/user-attachments/assets/8ad211ca-55a1-4869-bb49-5e2123b7cf42" />
+
+
 
 ------------------------------------------------------------------------
 
